@@ -2,13 +2,31 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.Profile-header {
+  display: flex;
+  background-color: chocolate;
+  padding: 5vmin;
+}
+
+.Profile-pic-container {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: beige;
+}
+
+.profile-body-container {
+  display: flex;
+}
+
+.Profile-pic {
+  height: 30vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .Profile-pic {
     animation: App-logo-spin infinite 20s linear;
   }
 }
